@@ -1,0 +1,36 @@
+body {
+  background-color: #cacce0
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.timer:not(:first-child) {
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color:black;
+  border-radius: 20%;
+ 
+}
+
+.field:not(:last-child) {
+  margin-right: 10px;
+}
+
+.value {
+  padding: 0px 10px 0px 10px;
+  font-size: 110px;
+  color:white;
+  align-items: center;
+}
+
+.label {
+  color:grey;
+}
